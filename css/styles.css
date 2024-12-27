@@ -1,0 +1,102 @@
+/* Texto responsive personalizado */
+h3 {
+    font-size: 1.5rem; /* Tamaño base */
+}
+
+p {
+    font-size: 1rem; /* Tamaño base */
+}
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: 1.5rem; /* Tamaño reducido en pantallas pequeñas */
+    }
+
+    p {
+        font-size: 0.9rem; /* Ajuste de texto para pantallas pequeñas */
+    }
+}
+
+
+
+.logo-wrapper {
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 50%; /* Bordes redondeados */
+    padding: 5px; /* Espacio interno alrededor del logo */
+    display: inline-flex; /* Asegura una alineación adecuada */
+    align-items: center; /* Centra verticalmente el logo */
+    justify-content: center; /* Centra horizontalmente el logo */
+    height: 50px;
+    width: 50px;
+}
+.navbar-nav {
+    margin-left: auto; /* Empuja los elementos hacia la derecha */
+}
+/* Estilos para el texto h2 encima de la imagen */
+h2 {
+    font-family: 'Arial', sans-serif; /* Tipo de letra */
+    color: white; /* Color del texto */
+    font-size: 1.5rem; /* Tamaño de la fuente */
+    /* font-weight: bold; Peso de la fuente */
+    /* font-style: italic; */
+    /* text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); Sombra del texto para mayor legibilidad */
+    margin: 0; /* Quita los márgenes predeterminados */
+}
+/* Cuadro de fondo semitransparente detrás del texto */
+.highlight-box {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con 50% de transparencia */
+    padding: 10px 20px; /* Espaciado interno para separar el texto del borde */
+    border-radius: 10px; /* Bordes redondeados */
+    display: inline-block; /* Ajusta el tamaño del cuadro al contenido */
+    text-align: center; /* Centra el texto dentro del cuadro */
+}
+description-text {
+    font-family: 'Georgia', serif; /* Fuente elegante y profesional */
+    font-size: 1.2rem; /* Tamaño de fuente legible */
+    color: #333; /* Color oscuro pero no negro puro */
+    line-height: 1.6; /* Espaciado entre líneas para mejorar la legibilidad */
+    text-align: justify; /* Justifica el texto para un diseño profesional */
+    margin: 0 auto; /* Centra el bloque de texto en la página */
+    max-width: 800px; /* Limita el ancho del texto para facilitar la lectura */
+}
+/* Estilo para imágenes en las columnas */
+
+.img_home {
+    max-height: 200px; /* Limita la altura máxima de las imágenes */
+    object-fit: cover; /* Ajusta la imagen para que encaje en el espacio sin deformarse */
+    width: 100%; /* Asegura que las imágenes sean responsivas */
+}
+
+/* Ajusta el texto en las columnas */
+h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem; 
+    color: #333;
+    margin-top: 15px;
+}
+
+ .p-01 {
+    font-family: 'Georgia', serif; /* Fuente elegante y profesional */
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+} 
+/* Personalización del botón */
+.btn {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Azul predeterminado de Bootstrap */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Azul más oscuro en hover */
+}
+.custom-spacing-01 {
+    margin-bottom: 150px; /* Ajusta el valor según el espacio que necesites */
+}
